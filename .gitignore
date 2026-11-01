@@ -1,0 +1,10 @@
+# Рабочие данные сканов (свежие бары/расчёты) и служебное — в репозиторий не идут
+temp/*.json
+temp/*.csv
+temp/detect_out.json
+
+# Результаты работы цикла — генерируются скиллом, в репо каркас остаётся пустым
+telegram/outbox/*
+!telegram/outbox/.gitkeep
+journal/*
+!journal/signals-log.md
